@@ -1,21 +1,21 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Classifying Sophisticated MEVs
-team: avibrahms (main), fiiiu (?), obadiaa (?)
+team: avibrahms (main), fiiiu?, obadiaa?
 created: 2022-02-28
 ---
 
-# Flashbots Research Proposal Template
-
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
-
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
-
 ## Background and Problem Statement
-Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
+Lots of MEV opportunities involve multiple target addresses, accross multiple bundles, those aren't straightforward attacks and they are not easily identifiable by mev-explore. Weather it is for arbitrage, liquidation or more sophisticated attacks, there is a need to understand complex attacks better.
 
 ## Plan and Deliverables
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
-
+We propose to build a series of machine learning algorithms, classifiers and clustering algorithms in order to unlock meaning from sophisticated MEV attacks. This feature will be added to mev-explore to enrich the knowledge of the community and prevent potential unforseen blind-spots, new attacks (some of which probably already using machine learning).
+  
+Machine learning is a great approach here as it removes the bias introduced by human interpretation. We simply provide the data to our models, and insights are extracted, weather it makes or doesn't make sense to us.
+As per most machine learning approaches, our research will be based on trial and error. But we have a basic methodology that we describe here:
+  
+1. Clustering the bundlesBundle classifier (is it a fully contained attack, part of a bigger attack, 
+Because bundles are the basic unit in relays, we propose to use them 
+  
 ## References
-Reference current relevant literature or past work pertaining to the research question(s) at stake.
+
