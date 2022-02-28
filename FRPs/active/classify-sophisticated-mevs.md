@@ -6,16 +6,19 @@ created: 2022-02-28
 ---
 
 ## Background and Problem Statement
-Lots of MEV opportunities involve multiple target addresses, accross multiple bundles, those aren't straightforward attacks and they are not easily identifiable by mev-explore. Weather it is for arbitrage, liquidation or more sophisticated attacks, there is a need to understand complex attacks better.
+Some MEV opportunities involve multiple target addresses, accross multiple bundles, those aren't straightforward and are not easily identifiable by mev-explore. Whether for arbitrage, liquidation, sandwitch, front-running, back-running or more, there is a need to understand complex attacks.
 
 ## Plan and Deliverables
-We propose to build a series of machine learning algorithms, classifiers and clustering algorithms in order to unlock meaning from sophisticated MEV attacks. This feature will be added to mev-explore to enrich the knowledge of the community and prevent potential unforseen blind-spots, new attacks (some of which probably already using machine learning).
+We propose to build a series of machine learning algorithms, classifiers and clustering algorithms in order to unlock meaning from sophisticated MEV attacks. We propose to add this feature to mev-explore to enrich the knowledge of the community and prevent potential unforseen blind-spots in existing or new kind of attacks (some of which using machine learning).
   
-Machine learning is a great approach here as it removes the bias introduced by human interpretation. We simply provide the data to our models, and insights are extracted, weather it makes or doesn't make sense to us.
-As per most machine learning approaches, our research will be based on trial and error. But we have a basic methodology that we describe here:
+Machine learning will remove the bias introduced by human interpretation. We simply provide the data to our models, and insights are extracted, whether it makes or doesn't make sense to us.
+As per most machine learning approaches, we have a basic methodology that we describe below, while we know our research will involve lots of trial and error as well.
   
-1. Clustering the bundlesBundle classifier (is it a fully contained attack, part of a bigger attack, 
-Because bundles are the basic unit in relays, we propose to use them 
+1. Clustering the bundles: 
+  sometimes, bundles are full blown attacks, other times they are part of a bigger attacks. The same way a person can act on its own or be part of a team. Because bundles are the basic unit in relays, we propose to use them as building blocks for more analysis. By running state-of-the-art clustering algorithms, we'll be able to group similar bundles and look at how they correlate in the bigger picture. 
+  
+2. Sequential analysis of transactions:
+  We will also look at transations as words in a sentence, and get rid of the bundle structure, that way we 
   
 ## References
 
