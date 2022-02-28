@@ -1,8 +1,8 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: <proposal title>
-team: <team that will carry out the proposal, with a designated lead>
-created: <date created on, in yyyy-mm-dd format>
+title: Classifying Sophisticated MEVs
+team: avibrahms (main), fiiiu (?), obadiaa (?)
+created: 2022-02-28
 ---
 
 # Flashbots Research Proposal Template
