@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Classifying Sophisticated MEVs
-team: avibrahms (main), fiiiu
+team: avibrahms, fiiiu
 created: 2022-02-28
 ---
 
