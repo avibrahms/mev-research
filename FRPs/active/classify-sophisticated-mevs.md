@@ -6,7 +6,7 @@ created: 2022-02-28
 ---
 
 ## Background and Problem Statement
-Some MEV opportunities involve multiple target addresses, accross multiple bundles, those aren't straightforward and are not easily identifiable by mev-explore. Whether for arbitrage, liquidation, sandwitch, front-running, back-running or more, there is a need to detect complex MEV opporunities, enrich the knowledge of the community, prevent potential blind-spots and unforseen new kinds of attacks.
+Some MEV opportunities involve multiple target addresses, accross multiple bundles, those aren't straightforward and are not easily identifiable by mev-explore. Whether for arbitrage, liquidation, sandwitch or more, there is a need to detect complex MEV opporunities, enrich the knowledge of the community, prevent potential blind-spots and unforseen new types of attacks.
 
 ## Plan and Deliverables
 We propose to build a series of machine learning algorithms in order to discover and unlock meaning from sophisticated MEV attacks. We propose to add this feature to mev-explore.
