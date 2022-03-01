@@ -15,9 +15,6 @@ Machine learning will remove the bias introduced by human interpretation. (We si
   
 We describe below our methodology. And as per most machine learning approaches, it'll involve trial and error that we can't fully describe ahead of time.
   
-0. Define the parameters:
-  
-  
 1. Clustering: 
   (Because bundles are the basic unit in relays, we propose to use them as building blocks for our analysis.)
   Problematic bundles are those which don't appear to be an MEV attack on their own. And might be part of something bigger. 
