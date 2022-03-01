@@ -24,7 +24,7 @@ We describe below our methodology. And as per most machine learning approaches, 
   Problematic bundles are bundles that are part of a bigger attack, therefore they either make sense on their own, or they don't. If they do, we classify them. If they don't we'll assume they are part of a sequence. Before we go to the next point: sequential analysis, we need to separate bundles by the attack they belong to. Multiple searchers might launch complex attacks in the same block, we distinguish between them 
   
 3. Sequential analysis:
-  The bundles are part of a sequence inside the block. 
+  The bundles are part of a sequence inside the block that we'll analyze to extract meaning in context.
   
 ## References
 
