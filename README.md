@@ -1,4 +1,4 @@
-# Flashbots Research
+# My personal change  Flashbots Research
 
 Flashbots is a research and development organization focused on the impact MEV has on state-rich blockchains such as Ethereum. MEV (Maximal Extractable Value) is a complex research topic involving multiple fascinating disciplines, stakeholders, and tradeoffs. Our research and development operate hand in hand, and have been designed to closely feed into each-other forming a dual engine that propels Flashbots forward. In line with our organization's values, all our research efforts are open to the public and highly collaborative.
 
